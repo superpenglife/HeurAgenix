@@ -1,0 +1,12 @@
+problem_state (dict): The dictionary contains the problem state with:
+    - symptoms (list[str]): The list of all possible symptoms.
+    - diagnosis (str): The correct diagnosis for the patient.
+    - current_solution (Solution): Current solution instance.
+    - current_score (float): Symptom match ratio plus diagnosis correctness.
+    - get_problem_state (callable): def get_problem_state(solution: Solution) -> dict
+    - validation_solution (callable): def validation_solution(solution: Solution) -> bool
+    - symptom_num (int): The number of symptoms for the patient.
+    - collected_symptoms (list[str]): Symptoms that have been collected so far.
+    - diagnosis (str|None): Current diagnosis if set.
+    - symptom_match_ratio (float): Ratio of correctly collected symptoms.
+    - diagnosis_set (bool): Whether diagnosis has been given.

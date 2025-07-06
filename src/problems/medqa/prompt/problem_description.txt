@@ -1,0 +1,1 @@
+Multi-turn Medical Question Answering aims at collecting patient symptoms through iterative questioning and suggesting a possible diagnosis at the end.

@@ -1,0 +1,17 @@
+- instance_data:
+    - symptoms (list[str]): A list of symptoms related to the patient.
+    - diagnosis (str): The correct diagnosis for the patient.
+- solution:
+    - current_solution (Solution): Current solution instance.
+- key_item:
+    - current_score (float): Symptom match ratio plus diagnosis correctness.
+- helper_function:
+    - get_problem_state (callable): def get_problem_state(solution: Solution) -> dict
+    - validation_solution (callable): def validation_solution(solution: Solution) -> bool
+- instance_problem_state:
+    - symptom_num (int): The number of symptoms for the patient.
+- solution_problem_state:
+    - collected_symptoms (list[str]): Symptoms that have been collected so far.
+    - diagnosis (str|None): Current diagnosis if set.
+    - symptom_match_ratio (float): Ratio of correctly collected symptoms.
+    - diagnosis_set (bool): Whether diagnosis has been given.
