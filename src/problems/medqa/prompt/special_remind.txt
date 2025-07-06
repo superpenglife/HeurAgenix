@@ -1,0 +1,2 @@
+1. This environment is designed for research purposes. Diagnoses generated should not be used for real medical decisions.
+2. Ensure collected symptoms exist in the predefined symptom list.
